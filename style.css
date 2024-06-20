@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
     gap: 100px;
 }
 .top{
@@ -49,12 +50,14 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+
 .information{
-    height: 300px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 150px;
 }
 #information-title{
     color: #1f2937;
@@ -66,18 +69,18 @@ a{
     gap: 30px;
 }
 .info{
-    width: 100px;
+    width: 150px;
     text-align: center;
 }
 .info-images{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     border: solid #3882f6 2px;
 }
 .info p{
     color: rgb(110, 116, 124);
-    font-size: 12px;
+    font-size: 18px;
 }
 
 
@@ -105,6 +108,33 @@ a{
     font-weight: 900;
     color: #1f2937;
 }
+
+.action{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster{
+    width: 75%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.poster button{
+    border: solid 1px white;
+    padding: 2px;
+    height: 20px;
+}
+
 
 .footer{
     height: 100px;
